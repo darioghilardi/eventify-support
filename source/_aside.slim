@@ -1,0 +1,9 @@
+ul.toc.sections
+  - blog.tags.each do |tag, articles|
+    li
+      span.section= tag
+      ul.toc.pages
+        - articles.each do |article|
+          li
+            = link_to article.url do
+              = article.title

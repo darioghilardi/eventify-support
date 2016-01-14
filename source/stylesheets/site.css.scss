@@ -2,12 +2,16 @@
 @import "bootstrap";
 @import "font-awesome";
 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+
 $navbarBackground: #F67A6E;
 $sepColor: #f5f5f5;
 
 body {
-  font-family: "franklin-gothic-urw", sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: #f3f3f3;
+  font-size: 15px;
 }
 
 .content-wrapper {
@@ -66,6 +70,8 @@ h1, h2 {
 }
 
 h1 {
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
   margin-top: 0;
   padding-top: 0;
   margin-bottom: 0.75em;
