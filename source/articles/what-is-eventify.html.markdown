@@ -10,4 +10,8 @@ tags: overview
 
 [Eventify](https://eventify.it) is a simple event management SaaS app. It allows you to accept registrations and payments, keep track of the subscribed users and control the event financial situation in real-time, without using a single spreadsheet.
 
-The main value of Eventify is the time and the annoyance it allows you to save. This way you can spend more time promoting your event or improving its quality for a greater success.
+![Eventify Dashboard](articles/what-is-eventify/dashboard_safari.jpg)
+
+Since you get a ready-to-use subscription and reports system, you save a ton of time while keeping everything under control. This helps you focus on other more business relevant activities. For example, increasing the event quality, promoting the event, organizing new events!
+
+[Eventify](https://eventify.it) is created by event organisers for event organisers. But it's so simple that you can use it even if this is the first event you create in your life.
