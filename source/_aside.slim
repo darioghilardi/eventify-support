@@ -3,7 +3,7 @@ ul.toc.sections
     li
       span.section= tag
       ul.toc.pages
-        - articles.each do |article|
+        - articles.select {|a| a.data[:published] == true }.each do |article|
           li
             = link_to article.url do
               = article.title
