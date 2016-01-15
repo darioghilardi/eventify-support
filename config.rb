@@ -28,11 +28,13 @@ end
 ###
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def post_url(article_title)
+    blog.articles.find { |article| article.title.downcase == article_title.downcase }.url
+    rescue
+    ""
+  end
+end
 
 # Build-specific configuration
 configure :build do
@@ -41,4 +43,20 @@ configure :build do
 
   # Minify Javascript on build
   # activate :minify_javascript
+end
+
+activate :blog do |blog|
+  blog.sources = "articles/{title}html"
+  blog.permalink = "{title}.html"
+end
+
+activate :deploy do |deploy|
+  deploy.deploy_method = :sftp
+  deploy.host          = 'support.eventify.it'
+  deploy.path          = '/var/www/support.eventify.it/html'
+  deploy.user          = 'root' # no default
+  # Optional Settings
+  # deploy.port  = 5309 # ssh port, default: 22
+  # deploy.clean = true # remove orphaned files on remote host, default: false
+  # deploy.flags = '-rltgoDvzO --no-p --del' # add custom flags, default: -avz
 end
