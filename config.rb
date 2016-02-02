@@ -46,7 +46,7 @@ configure :build do
 end
 
 activate :blog do |blog|
-  blog.sources = "articles/{title}html"
+  blog.sources = "articles/{title}.html"
   blog.permalink = "{title}.html"
 end
 

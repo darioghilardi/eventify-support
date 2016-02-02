@@ -12,7 +12,7 @@ tags: italian language topics
 
 Per i provider abilitati è quindi possibile inserire corsi nel motore di ricerca tramite il pannello di Eventify, ed è inoltre possibile attivarne la vendita, come si può vedere nello screenshot seguente:
 
-![Esempio TrovaECM](articles/trovaecm/trovaecm_esempio.jpg)
+![Esempio TrovaECM](trovaecm/trovaecm_esempio.jpg)
 
 ## Come inserire un corso in TrovaECM
 
@@ -23,16 +23,16 @@ Di seguito troverai i passaggi necessari per inserire un corso in TrovaECM. Ti r
 2. Collegati a [questo indirizzo](https://eventify.it/en/organizers/sign_in) ed inserisci la tua coppia username e password per accedere al pannello dei tuoi eventi.
 
 3. Verrai redirezionato alla pagina seguente, clicca in alto a destra sul pulsante **Crea un nuovo evento**:
-![Benvenuto](articles/trovaecm/welcome.jpg)
+![Benvenuto](trovaecm/welcome.jpg)
 
 4. Inserisci i dati dell'evento nella form che compare, come nell'esempio sottostante:
-![Creazione di un evento](articles/trovaecm/creazione_evento.jpg)
+![Creazione di un evento](trovaecm/creazione_evento.jpg)
 
 5. Clicca nella barra di sinistra sulla voce di menu **Pubblicazione su TrovaECM**:
-![Click a sinistra su Pubblicazione su TrovaECM](articles/trovaecm/click_barra_sx_trovaecm.jpg)
+![Click a sinistra su Pubblicazione su TrovaECM](trovaecm/click_barra_sx_trovaecm.jpg)
 
 6. Inserisci i dettagli del corso nella form ed attiva la pubblicazione su TrovaECM.
-![Corso pubblicato](articles/trovaecm/corso_pubblicato.jpg)
+![Corso pubblicato](trovaecm/corso_pubblicato.jpg)
 
 7. Il tuo corso è ora pubblicato sul motore di ricerca [TrovaECM](http://trovaecm.it).
 
