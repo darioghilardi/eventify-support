@@ -80,8 +80,9 @@ h1 {
 }
 
 h2 {
+  font-family: 'Fjalla One', sans-serif;
   margin-bottom: 1em;
-  margin-top: 1em;
+  margin-top: 2em;
   font-size: 22px;
 }
 
@@ -90,6 +91,8 @@ a {
 
   &:hover { color: #f67a6e; }
 }
+
+img { margin: 20px 0 }
 
 $bulletSize: 10px;
 
